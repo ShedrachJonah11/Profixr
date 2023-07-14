@@ -4,8 +4,8 @@
   box-sizing: border-box;
   font-family: Open Sans;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 .nav-bar {
   position: fixed;
@@ -54,6 +54,47 @@ li{
   top: 3%;
   right: 4.5%;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #b1a6a6;
+  padding: 20px 10px 12px 20px;
+}
+.footer-child-ul {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-li__1 {
+  font-size: 16px;
+  font-weight: 900;
+  padding-bottom: 1.5px;
+}
+.mobile-footer-child2 div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.mobile-footer-child2 span,
+.footer-child2 span {
+  font-size: 12px;
+  font-weight: 600;
+}
+.mobile-footer-child2 img,
+.footer-child2 img {
+  height: 20px;
+}
+.mobile-offset {
+  display: flex;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.footer-container {
+  display: none;
+}
 @media screen and (min-width: 769px) {
   .nav-bar {
     height: 76px;
@@ -71,6 +112,66 @@ li{
     height: 31px;
   }
   .nav-bar li {
+    font-size: 14px;
+  }
+  .mobile-footer {
+    display: none;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    position: relative;
+  }
+  .footer-child1 {
+    display: flex;
+    max-width: 1240px;
+    justify-content: center;
+    gap:70px;
+  }
+  .footer-img-container1 img{
+    height: 19.5px;
+  }
+  .footer-child1 div {
+    display: flex;
+    gap:25px;
+  }
+  .footer-child2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:210px;
+    left:36.5%;
+  }
+  .footer-child2 > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .icon-container{
+    display:flex;
+    gap:18px;
+  }
+  .divider{
+    width:78%;
+    padding:70px 0 20px 0;
+    max-width: 680px;
+  }
+  .footer-child3{
+    display: flex;
+    width:80%;
+    justify-content: space-between;
+    align-items: center;
+    max-width:670px;
+    padding: 7px 0 0 0;
+  }
+  .footer-child3 img{
+    height: 20px;
+  }
+  .footer-child3 > div{
+    display: flex;
     font-size: 12px;
+    gap:10px;
   }
 }
