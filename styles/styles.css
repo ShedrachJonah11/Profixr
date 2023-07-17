@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Open Sans;
+ 
 }
 li {
   list-style: none;
@@ -55,12 +56,13 @@ li {
   right: 4.5%;
 }
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
   background: #b1a6a6;
   padding: 20px 10px 12px 20px;
+  
 }
 .footer-child-ul {
   font-size: 14px;
