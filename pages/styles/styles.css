@@ -63,7 +63,6 @@ a{
   top: 3%;
   right: 4.5%;
 }
-
 .bold-text{
   font-weight: 900;
 }
@@ -152,14 +151,16 @@ footer {
   .footer-child2{
     display: flex;
     align-items: center;
-    position: absolute;
-    top:210px;
-    left:36.5%;
+    /*position: absolute;
+    bottom:0px;
+    right:150px;*/
+    margin: 20px 0 20px 80px;
   }
   .footer-child2 > div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap:20px;
   }
   .icon-container{
     display:flex;
@@ -167,7 +168,7 @@ footer {
   }
   .divider{
     width:78%;
-    padding:70px 0 20px 0;
+    padding:0px 0 20px 0;
     max-width: 680px;
   }
   .footer-child3{
