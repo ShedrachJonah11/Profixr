@@ -1,0 +1,73 @@
+.write {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #bcb0b0;
+  padding: 20px 20px 30px 20px;
+}
+
+.write p {
+  padding-top: 10px;
+}
+
+.part-2 {
+  padding: 15px 20px 0 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.part-2 img {
+  height: 30px;
+}
+
+#one {
+  margin-top: 3rem;
+}
+
+h5 {
+  margin-top: 2rem;
+  font-size: medium;
+}
+
+#two {
+  margin-top: 15px;
+}
+
+#three {
+  font-size: 12px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 15px 0 0 30px;
+}
+
+#three img {
+  height: 16px;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background-color: #646668;
+  width: 60%;
+  height: 32px;
+  border-radius: 3px;
+  display: flex;
+  margin: 18px auto 18px auto;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: medium;
+  cursor: pointer;
+}
+@media screen and (min-width: 769px) {
+  .write h1{
+    padding-top: 28px;
+    font-size: 40px;
+  }
+  .part-2 h2{
+    font-size: 34px;
+  }
+  button {
+    width: 350px;
+  }
+}
