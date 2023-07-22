@@ -1,8 +1,17 @@
-.write {
+main{
   margin-top: 50px;
-  text-align: center;
-  background-color: #bcb0b0;
-  padding: 20px 20px 30px 20px;
+}
+.write {
+  background-image: url("/images/img-6.jpeg");
+  background-attachment: fixed;
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .write p {
@@ -38,6 +47,7 @@ h5 {
   gap: 20px;
   justify-content: center;
   padding: 15px 0 0 30px;
+  color:#003DA5;
 }
 
 #three img {
