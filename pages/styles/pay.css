@@ -1,89 +1,109 @@
-main {
-  margin-top: 50px;
+.stress {
+     margin-top: 50px;
+     text-align: center;
+     width: 100%;
+     background-color: #bcb0b0;
 }
-input {
-  padding: 8px 0 8px 12px;
-  border-radius: 8px;
-  background-color: #cccccc;
-  border: none;
+
+
+.pay {
+    text-align: center;
 }
-.hero-section-child1 {
-  background-image: url("/images/img-6.jpeg");
-  background-attachment: fixed;
-  height: 300px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.hero-section-child2 {
-  padding: 20px 30px;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 700px;
-  margin: 0 auto;
-}
-form > div {
-  display: flex;
-  flex-direction: column;
-}
-.pin-section {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.pin-section > div {
-  display: flex;
-  flex-direction: column;
-}
-button {
-  width: 60%;
-  height: 32px;
-  background-color: #003da5;
-  color: #f2f2f2;
-  border: none;
-  border-radius: 3px;
-  margin: 20px auto 0 auto;
-}
-.hero-section-child3{
-  padding-bottom: 30px;
-  max-width: 700px;
-  margin: 0 auto;
-}
-.hero-section-child3 h2{
-  padding: 0 0 30px 0;
-}
-.hero-section-child3__list-items{
-  display: flex;
-  flex-direction: column;
-  gap:20px;
-}
-.hero-section-child3__list-items  > ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:10px;
-}
-.hero-section-child3__list-item--big{
-  font-size: 20px;
-  font-weight: 900;
-}
-@media screen and (min-width: 600px) {
-  .pin-section {
-    flex-direction: row;
+
+
+
+#paymentForm {
+    text-align: center;
     width: 100%;
-  }
-  .pin-section > div {
+    
+}
+
+
+
+#paymentForm select {
+    width: 200px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #a9a8a8;
+    box-shadow: none;
+}
+
+.payForm {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+
+
+
+label {
+    margin-right: 10px;
+    
+}
+
+
+
+.payForm p {
+    margin-top: 5px;
+}
+
+
+input {
+    background-color: #a9a8a8;
+    box-shadow: #a9a8a8;
+}
+
+
+.Payment {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 70px;
+   
+}
+
+
+button {
+    border: 1px solid #646688;
+    background-color: #646688;
+    color: black;
+    box-sizing: border-box;
+    padding: 5px 20px;
     width: 50%;
-  }
-  .hero-section-child3__list-items  > ul{
-    flex-direction: row;
-    justify-content: space-between;
-  }
+}
+
+
+.Transfer p {
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    vertical-align: top;
+}
+
+
+td {
+    text-align: right;
+}
+
+
+@media screen and (min-width: 769px){
+    .stress {
+        margin-top: 70px;
+    }
+
+
+    .payForm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
 }

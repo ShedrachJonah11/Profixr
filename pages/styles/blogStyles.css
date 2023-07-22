@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main > div > a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+main > div > a > img {
+  height: 18px;
+}
+main > div > a > span {
+  font-size: 12px;
+}

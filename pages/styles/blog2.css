@@ -1,0 +1,30 @@
+main {
+  padding: 0 20px;
+  margin: 80px 0 45px 0;
+}
+main h3{
+    padding: 22px 0;
+}
+main > p{
+    padding-bottom: 22px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-section-child {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero-section-child div{
+    display: flex;
+    gap: 4px;
+}
+@media screen and (min-width:769px){
+    main {
+    margin: 110px 0 50px 0;
+    padding: 0 80px;
+  }
+}

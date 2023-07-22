@@ -5,7 +5,7 @@
   font-family: Open Sans;
 }
 body{
-    background-color: #efefef;
+    background-color: #F7F7F7;
 }
 li {
   list-style: none;
@@ -23,8 +23,10 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ccc;
+  background-color: #003DA5;
+  color: #F2F2F2;
   padding: 0 20px;
+  z-index: 2;
 }
 .nav-bar img {
   height: 20px;
@@ -34,6 +36,9 @@ a{
 }
 .nav-bar ul {
   display: none;
+}
+.nav-bar > ul > li > a{
+  color: #F2F2F2;
 }
 .nav-bar.mobile {
   right: 0;
@@ -61,11 +66,14 @@ a{
   top: 3%;
   right: 4.5%;
 }
+.bold-text{
+    font-weight: 900;
+}
 .text-center{
     text-align: center;
 }
 footer {
-  background: #b1a6a6;
+  background: var(--linear, linear-gradient(45deg, #2F66F6 0%, #102C78 100%));
   padding: 20px 10px 12px 20px;
 }
 .footer-child-ul {
