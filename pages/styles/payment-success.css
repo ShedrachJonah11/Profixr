@@ -12,10 +12,12 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #F7F7F7;
 }
 
 .write p {
   padding-top: 10px;
+  color: #9AD2FF;
 }
 
 .part-2 {

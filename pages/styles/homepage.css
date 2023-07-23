@@ -1,3 +1,6 @@
+h3{
+  font-size: 24px;
+}
 main {
   background-color: #fff;
   margin: 40px 0 0 0;
@@ -131,15 +134,19 @@ main {
   align-items: center;
 }
 .technician-flex-child img {
-  height: 180px;
   padding-bottom: 10px;
+}
+.img--1{
+  display: none;
+}
+.img--2{
+  display: block;
 }
 .technician-flex-child h4 {
   padding: 5px 0;
 }
 .technician-flex-child p {
-  max-width: 200px;
-  font-size: 14px;
+  display: none;
 }
 .technician-flex-child button {
   width: 200px;
@@ -254,6 +261,9 @@ main {
     justify-content: center;
     gap: 50px;
   }
+  .hero-section-child4.row-reverse{
+    flex-direction: row-reverse;
+  }
   .hero-section-child4__sub--child {
     justify-content: unset;
   }
@@ -264,6 +274,12 @@ main {
   .hero-section-child4 > img {
     height: 300px;
     padding: 0;
+  }
+  .img--1{
+    display: block;
+  }
+  .img--2{
+    display: none;
   }
   .hero-section-child4B {
     padding: 70px 0 50px 0;
@@ -278,6 +294,7 @@ main {
   .technician-flex-child p {
     max-width: 230px;
     font-size: 16px;
+    display: block;
   }
   .technician-flex-child button {
     width: 230px;

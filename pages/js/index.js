@@ -4,6 +4,7 @@ const unavailableContent = document.getElementByClassName("unavailable-content")
 function showMobileNav() {
     if (navBar.className === "nav-bar") {
         navBar.className += " mobile";
+        navClose.style.display = "none";
     } else {
         navBar.className = "nav-bar";
     }
