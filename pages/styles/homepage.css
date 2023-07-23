@@ -150,6 +150,7 @@ main {
   border-radius: 3px;
   padding: 8px 0;
   margin-top: 10px;
+  cursor: pointer;
 }
 .popup {
   display: none;

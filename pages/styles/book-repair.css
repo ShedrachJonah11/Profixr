@@ -1,32 +1,33 @@
-.heading-container{
-  background-image: url('/images/img-5.jpeg');
+.heading-container {
+  background-image: url("/images/img-5.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 280px;
+  height: 350px;
+  margin: 50px auto 0 auto;
 }
 .word {
-  margin: 80px auto 0 auto;
   display: flex;
   justify-content: center;
   font-weight: 900;
   text-align: center;
   max-width: 600px;
-  padding: 0 20px;
+  padding: 80px 20px 0 20px;
+  margin: 0 auto;
 }
 .word h1 {
   font-weight: 900;
-  color: #F7F7F7;     
+  color: #f7f7f7;
 }
 #one {
-  padding: 10px 20px 175px 20px;
+  padding: 10px 20px 5px 20px;
   display: flex;
   justify-content: center;
   text-align: center;
-  color:#9AD2FF;
+  color: #9ad2ff;
 }
 .info {
-  padding-bottom: 32px;
+  padding: 10px 0 32px 0;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -42,22 +43,6 @@
   flex-direction: column;
   justify-content: center;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
-.arrow {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin: 20px 0 0 6.5%;
-}
-.arrow img {
-  height: 18px;
-}
-.arrow span {
-  font-size: 12px;
-}
 .info p {
   margin: 20px 0 1px 5.1%;
   font-weight: 800;
@@ -69,11 +54,12 @@ select {
   width: 90%;
   padding: 8px 10px;
   border: none;
+  background-color: #E0E0E0;
 }
 button {
-  background-color: #646668;
-  width: 50%;
-  color: white;
+background-color: #003da5;
+  width: 50%;  
+  color: #f2f2f2;
   border: none;
   border-radius: 3.5px;
   margin: 20px auto 0 auto;
@@ -82,11 +68,17 @@ button {
   justify-content: center;
   font-size: medium;
 }
+button > a {
+  color: #f2f2f2;
+}
 @media screen and (min-width: 769px) {
-  .word {
-    margin: 110px auto 0 auto;
+  .heading-container {
+    height: 450px;
   }
-  /*.info p{
-     margin: 20px 0 1px %;
-  }*/
+  .word {
+    padding: 180px 20px 0 20px;
+  }
+  .info{
+    padding: 25px 0 32px 0;
+  }
 }

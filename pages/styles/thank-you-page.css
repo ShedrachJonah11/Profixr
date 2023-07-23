@@ -1,0 +1,33 @@
+body{
+    background: #FFF;
+}
+.success {
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 88px auto 20px auto;
+}
+.Thanks {
+  text-align: center;
+}
+button {
+  background-color: #003da5;
+  width: 72%;
+  font-size: medium;
+  border: none;
+  border-radius: 3.5px;
+  margin: 60px auto 25px auto;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+}
+button a{
+    color: #f2f2f2;
+}
+@media screen and (min-width:769px) {
+    .success{
+        margin: 120px auto 20px auto;
+    }
+}

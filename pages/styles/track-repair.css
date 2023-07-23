@@ -1,0 +1,61 @@
+.write {
+  background-image: url("/images/img-7.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 220px;
+  margin: 50px auto 0 auto;
+  color: #ffffff;
+}
+
+.white {
+  padding: 0 20px;
+}
+
+.write h1 {
+  padding-top: 30px;
+}
+
+.write p {
+  margin-top: 0.5rem;
+}
+.white-2 p, input {
+  margin-left: 10px;
+}
+.white-2 {
+  max-width: 750px;
+  margin: 50px auto 0 auto;
+  padding: 0 20px;
+}
+.white-2 p {
+  padding-bottom: 2px;
+}
+.white-2 button {
+  background-color: #003da5;
+  width: 52%;
+  font-size: medium;
+  border: none;
+  border-radius: 3.5px;
+  margin: 20px auto;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+}
+.white-2 button a{
+  color: #f2f2f2;
+}
+#number {
+  border-radius: 8px;
+  width: 90%;
+  padding: 8px 10px;
+  border: none;
+  background-color: #cccccc;
+}
+@media screen and (min-width: 769px) {
+  .write h1 {
+    padding-top: 60px;
+  }
+  .write p {
+    padding-top: 10px;
+  }
+}

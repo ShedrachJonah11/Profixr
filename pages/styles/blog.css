@@ -1,36 +1,41 @@
 main{
-    margin: 0 0 27px 0;
     padding: 0 20px;
-    /*max-width: 1000px;*/
 }
 header{
-    margin:68px 0 15px 0;
     display: flex;
     justify-content: center;
+    width: 250px;
+    margin: 0 auto 15px auto;
 }
 section{
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap:22px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
 }
 .hero-section-child a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #003DA5;
     gap: 20px;
     padding-bottom: 10px;
+    color: #0A0F29;
 }
 .hero-section-child img{
     height:12px;
 }
-@media screen and (min-width:769px){
-    main{
-        padding: 0 80px;
-    }
+@media screen and (min-width:570px) {
     header{
-        margin: 102px 0 15px 0;
+        width: 500px;
+    }
+}
+@media screen and (min-width:769px){
+    header{
+        margin: 45px auto 25px auto;
     }
 }
 
